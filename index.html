@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <script defer src="./components/header.js"></script>
+    <link rel="stylesheet" href="./components/header.css">
+
+    <script defer src="./components/services.js"></script>
+    
+    <script defer src="./components/form.js"></script>
+    <link rel="stylesheet" href="./components/form.css">
+    
+    <script defer src="./components/footer.js"></script>
+    <link rel="stylesheet" href="./components/footer.css">
+
+    
+    <link rel="stylesheet" href="./pages/index.css">
+    <script defer src="./pages/index.js"></script>
+</head>
+<body>
+    
+    <!-- SECTION WELLCOME -->
+    <section class="wellcome">
+        <header class="header"></header>
+        <div class="wellcome-content-template"></div>
+
+    </section>
+    
+    <template id="wellcome-content-template">
+        <div class="wellcome-card">
+            <h1 class="wellcome-card__title"></h1>
+            <p class="wellcome-card__description"></p>
+
+        </div>
+
+    </template>
+
+    <!-- SECTION PRESENTATION -->
+    <section class="presentation">
+        <div class="presentation-content-template"></div>
+        
+    </section>
+    <template id="presentation-content-template">
+        <div class="presentation-card">
+            
+            <img class="presentation-card__img" src="" alt="">
+                
+            <div class="presentation-card__content">
+                <h2 class="presentation-card__title"></h2>
+                <p class="presentation-card__description"></p>
+            </div>
+
+        </div>
+
+    </template>
+
+    <!-- SECTION SERVICES -->
+    <section class="services">
+        <h3 class="services__title">Mis Servicios</h3>
+        
+        <div class="services__content--template">
+            
+        </div>
+        
+    </section>
+    <template id="services__content--template">
+                
+        <div class="services__card">
+            <img class= "services__card--img" src="" alt="">
+            <div class="services__card--content">
+                <h4 class="services__card--title">un titulo</h4>
+                <p class="services__card--text">una descripcion</p>
+
+            </div>
+        </div>
+    </template>
+
+     
+    
+    <div class="contact"></div>
+    <div class="footer"></div>
+</body>
+</html>

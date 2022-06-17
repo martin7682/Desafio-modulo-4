@@ -1,0 +1,42 @@
+.footer-container{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px 80px;
+    background-color: #2C2C2C;
+}
+@media (min-width: 678px){
+    .footer-container{
+        flex-direction: row;
+    }
+}
+.footer-logo-container__img{
+    width: 77px;
+    height: 71px;
+    align-self: center;
+}
+.footer-redes-container{
+    align-self: center;
+}
+.footer-redes-container__icono{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+
+}
+.footer-redes-container__icono-img{
+    width: 28px;
+    height:28px;
+    filter: invert(100%);
+}
+
+.footer-redes-container__icono--nombre{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: 12.5px 8px;
+    color: white;
+}

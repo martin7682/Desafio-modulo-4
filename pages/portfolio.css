@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #2C2C2C;
+    color: white;
+}
+
+/* SECTION PORTFOLIO */
+.header-content{
+    background-color: black;
+}
+@media (min-width: 678px){
+    .header-content{
+        background: linear-gradient(to right, #958c40, rgba(156, 0, 210, 0.8) 100%);;
+    }
+
+}
+.header-container{
+    height: 80px;
+}
+.portfolio__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+    padding: 40px 0 50px 0;
+    font-weight: 700;
+}
+@media (min-width: 678px){
+    .portfolio__title{
+       text-align: start;
+       padding: 300px 0 450px 30px;
+    }
+}
+
+.portfolio__content--template{
+    display: grid;
+    grid-auto-rows: 25rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20.6rem), 1fr));
+    gap: 1rem;
+    background-color: black;
+}
+.portfolio__card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 50px 0 50px;
+}
+.portfolio__card--content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.portfolio__card--img{
+    
+    height: 130px;
+    width: 140px;
+}
+.portfolio__card--title{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 24px;
+}
+.portfolio__card--text{
+    font-family: 'Poppins';
+    font-size: 16px;
+}

@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    background-color: #2C2C2C;
+    color: white;
+}
+
+
+.header-content{
+    background: linear-gradient(to right, #408195, rgba(0, 210, 135, 0.8) 100%);
+
+}
+.contact-container{
+    background-color: inherit;
+}
