@@ -6,7 +6,15 @@ body{
 
 
 .header-content{
-    background: linear-gradient(to right, #408195, rgba(0, 210, 135, 0.8) 100%);
+    background: black;
+
+}
+
+@media (min-width: 678px){
+    .header-content{
+        background: linear-gradient(to right, #408195, rgba(0, 210, 135, 0.8) 100%);
+    
+    }
 
 }
 .contact-container{
